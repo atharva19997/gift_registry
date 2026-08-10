@@ -1,0 +1,29 @@
+[
+  {
+    "id": "g1",
+    "title": "Copper & Brass Dinner Set",
+    "description": "A handcrafted 6-piece copperware serving set for cosy dinners at home.",
+    "imageUrl": "https://m.media-amazon.com/images/I/61UUSoxWOPL._SX679_.jpg",
+    "link": "https://amzn.in/d/02tWTYKF",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g2",
+    "title": "Stand Mixer (Cream)",
+    "description": "A tilt-head stand mixer for the baker in the family. Comes with whisk and dough hook.",
+    "imageUrl": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?auto=format&fit=crop&w=800&q=70",
+    "link": "https://www.flipkart.com/EXAMPLE2",
+    "status": "gifted",
+    "giftedBy": ["Priya", "Rohan"]
+  },
+  {
+    "id": "g3",
+    "title": "Handloom Cotton Bedsheet Set",
+    "description": "Soft, breathable king-size handloom bedsheet with two pillow covers.",
+    "imageUrl": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=70",
+    "link": "https://www.amazon.in/dp/EXAMPLE3",
+    "status": "available",
+    "giftedBy": []
+  }
+]

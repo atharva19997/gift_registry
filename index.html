@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sara &amp; Atharva — Wedding Registry</title>
+  <meta name="description" content="The wedding gift registry for Sara &amp; Atharva. Browse gifts, buy from your favourite store, and let us know so we can mark it off the list." />
+
+  <!-- Fonts: Cormorant Garamond (display) + Mulish (body). Loaded from Google Fonts CDN. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="top">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">Together with joy, we invite you to celebrate</p>
+      <h1 class="hero__names">
+        <span>Sara</span>
+        <span class="hero__amp" aria-hidden="true">&amp;</span>
+        <span>Atharva</span>
+      </h1>
+      <p class="hero__date">A Wedding Gift Registry</p>
+      <p class="hero__intro">
+        Your presence is the greatest gift of all. But if you'd like to mark the
+        occasion with something for our new home, we've gathered a few ideas below.
+      </p>
+      <a class="hero__cta" href="#gifts">Browse the registry</a>
+    </div>
+    <div class="hero__flourish" aria-hidden="true">&#10047;</div>
+  </header>
+
+  <main>
+    <!-- ============ HOW TO GIFT ============ -->
+    <section class="how" id="how" aria-labelledby="how-title">
+      <p class="section-eyebrow">A few simple steps</p>
+      <h2 class="section-title" id="how-title">How to gift</h2>
+      <ol class="how__steps">
+        <li class="how__step">
+          <span class="how__num">1</span>
+          <h3>Browse</h3>
+          <p>Look through the gifts below and pick one you'd love to give.</p>
+        </li>
+        <li class="how__step">
+          <span class="how__num">2</span>
+          <h3>Buy it</h3>
+          <p>Click <em>View &amp; Buy</em> to open the item on its original store and order it.</p>
+        </li>
+        <li class="how__step">
+          <span class="how__num">3</span>
+          <h3>Let us know</h3>
+          <p>Message us with your name and the gift's title so no one buys the same thing twice.</p>
+        </li>
+        <li class="how__step">
+          <span class="how__num">4</span>
+          <h3>Check back</h3>
+          <p>We'll mark it as gifted here, with a thank-you to you.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ CLAIM BANNER ============ -->
+    <!-- Edit the contact name/number below to your own before publishing. -->
+    <aside class="claim" role="note">
+      <span class="claim__icon" aria-hidden="true">&#9993;</span>
+      <p class="claim__text">
+        <strong>To claim a gift:</strong> message
+        <a href="https://wa.me/919999999999">Atharva at +91 99999 99999</a>
+        with your name and the gift title. We'll update the list so it isn't gifted twice.
+      </p>
+    </aside>
+
+    <!-- ============ GIFT GALLERY ============ -->
+    <section class="gifts" id="gifts" aria-labelledby="gifts-title">
+      <p class="section-eyebrow">Choose something special</p>
+      <h2 class="section-title" id="gifts-title">The registry</h2>
+
+      <!-- Client-side filter. Purely cosmetic — no data is written anywhere. -->
+      <div class="filters" role="group" aria-label="Filter gifts by status">
+        <button class="filter is-active" type="button" data-filter="all">All</button>
+        <button class="filter" type="button" data-filter="available">Still available</button>
+        <button class="filter" type="button" data-filter="gifted">Already gifted</button>
+      </div>
+
+      <!-- Cards are injected here by script.js from gifts.json -->
+      <div class="grid" id="giftGrid" aria-live="polite">
+        <p class="grid__loading" id="gridStatus">Loading the registry&hellip;</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p class="footer__names">Sara &amp; Atharva</p>
+    <p class="footer__thanks">Thank you for celebrating with us. &#10084;</p>
+    <a class="footer__top" href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,399 @@
+/* ============================================================
+   Sara & Atharva — Wedding Registry
+   Palette:  ink plum #3A2438 · marigold #D3A241 · blush #C97F84
+             sage (gifted) #7E9B7A · warm ivory #FBF6EE
+   Type:     Cormorant Garamond (display) · Mulish (body)
+   ============================================================ */
+
+:root {
+  --ivory:      #FBF6EE;
+  --ivory-2:    #F4EBDD;
+  --plum:       #3A2438;
+  --plum-soft:  #5B4058;
+  --marigold:   #D3A241;
+  --marigold-d: #B4832A;
+  --blush:      #C97F84;
+  --sage:       #7E9B7A;
+  --line:       #E4D8C6;
+
+  --shadow:     0 10px 30px -18px rgba(58, 36, 56, 0.45);
+  --radius:     14px;
+
+  --display: "Cormorant Garamond", Georgia, serif;
+  --body:    "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--body);
+  color: var(--plum);
+  background: var(--ivory);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--marigold-d); }
+
+/* ---------- Shared section furniture ---------- */
+.section-eyebrow {
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--blush);
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  text-align: center;
+}
+
+.section-title {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(2rem, 5vw, 3rem);
+  text-align: center;
+  margin: 0 0 2.5rem;
+  color: var(--plum);
+}
+
+main { display: block; }
+
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4.5rem 1.25rem;
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 5.5rem 1.25rem 4.5rem;
+  background:
+    radial-gradient(120% 80% at 50% -10%, rgba(211, 162, 65, 0.16), transparent 60%),
+    linear-gradient(180deg, var(--ivory-2), var(--ivory));
+  border-bottom: 1px solid var(--line);
+}
+
+.hero__inner { max-width: 720px; margin: 0 auto; position: relative; z-index: 1; }
+
+.hero__eyebrow {
+  font-size: 0.82rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--plum-soft);
+  margin: 0 0 1.2rem;
+}
+
+.hero__names {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(3rem, 11vw, 6rem);
+  line-height: 1.02;
+  margin: 0;
+  color: var(--plum);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em 0.5em;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.hero__amp {
+  font-style: italic;
+  color: var(--marigold);
+  font-weight: 500;
+}
+
+.hero__date {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  color: var(--blush);
+  margin: 1rem 0 1.5rem;
+  letter-spacing: 0.02em;
+}
+
+.hero__intro {
+  font-size: 1.05rem;
+  color: var(--plum-soft);
+  max-width: 34rem;
+  margin: 0 auto 2rem;
+}
+
+.hero__cta {
+  display: inline-block;
+  font-family: var(--body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: var(--ivory);
+  background: var(--plum);
+  padding: 0.85rem 2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+.hero__cta:hover { background: var(--plum-soft); transform: translateY(-2px); }
+
+.hero__flourish {
+  position: absolute;
+  font-size: 22rem;
+  color: var(--marigold);
+  opacity: 0.06;
+  right: -3rem;
+  bottom: -6rem;
+  pointer-events: none;
+  line-height: 1;
+}
+
+/* ============================================================
+   HOW TO GIFT
+   ============================================================ */
+.how__steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.how__step {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.how__num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  font-family: var(--display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--marigold-d);
+  background: var(--ivory-2);
+  border: 1px solid var(--marigold);
+  margin-bottom: 1rem;
+}
+
+.how__step h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 0 0 0.4rem;
+}
+
+.how__step p { margin: 0; font-size: 0.95rem; color: var(--plum-soft); }
+
+/* ============================================================
+   CLAIM BANNER
+   ============================================================ */
+.claim {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(120deg, var(--plum), var(--plum-soft));
+  color: var(--ivory);
+  padding: 1.4rem 1.75rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.claim__icon { font-size: 1.6rem; color: var(--marigold); flex-shrink: 0; }
+.claim__text { margin: 0; font-size: 1rem; }
+.claim__text strong { color: #fff; }
+.claim a { color: var(--marigold); font-weight: 600; text-decoration: underline; }
+
+/* ============================================================
+   GIFT GALLERY
+   ============================================================ */
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.filter {
+  font-family: var(--body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--plum-soft);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.5rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+.filter:hover { border-color: var(--marigold); color: var(--plum); }
+.filter.is-active {
+  background: var(--marigold);
+  border-color: var(--marigold);
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.75rem;
+}
+
+.grid__loading,
+.grid__empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--plum-soft);
+  font-style: italic;
+  padding: 2rem;
+}
+
+/* ---------- Card ---------- */
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -20px rgba(58,36,56,0.5); }
+
+.card__media {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--ivory-2);
+  overflow: hidden;
+}
+.card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.card__img--fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--display);
+  font-size: 3rem;
+  color: var(--marigold);
+  height: 100%;
+}
+
+.badge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.32rem 0.7rem;
+  border-radius: 999px;
+  color: #fff;
+  backdrop-filter: blur(2px);
+}
+.badge--available { background: rgba(126, 155, 122, 0.95); }
+.badge--gifted    { background: rgba(201, 127, 132, 0.95); }
+
+.card__body {
+  padding: 1.25rem 1.25rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card__title {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin: 0 0 0.4rem;
+}
+
+.card__desc {
+  font-size: 0.92rem;
+  color: var(--plum-soft);
+  margin: 0 0 1rem;
+  flex: 1;
+}
+
+.card__gifted {
+  font-size: 0.85rem;
+  color: var(--blush);
+  margin: 0 0 1rem;
+}
+.card__gifted strong { color: var(--plum); }
+
+.card__link {
+  align-self: flex-start;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: var(--plum);
+  border: 1px solid var(--plum);
+  border-radius: 999px;
+  padding: 0.55rem 1.3rem;
+  transition: all 0.18s ease;
+}
+.card__link:hover { background: var(--plum); color: var(--ivory); }
+
+.card.is-gifted { opacity: 0.86; }
+.card.is-gifted .card__img { filter: grayscale(0.25); }
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer {
+  text-align: center;
+  padding: 3.5rem 1.25rem;
+  background: var(--ivory-2);
+  border-top: 1px solid var(--line);
+}
+.footer__names {
+  font-family: var(--display);
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+  color: var(--plum);
+}
+.footer__thanks { margin: 0 0 1rem; color: var(--plum-soft); }
+.footer__top { font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+.footer__top:hover { text-decoration: underline; }
+
+/* ============================================================
+   RESPONSIVE + ACCESSIBILITY
+   ============================================================ */
+@media (max-width: 560px) {
+  .claim { flex-direction: column; text-align: center; }
+  section { padding: 3.25rem 1.1rem; }
+}
+
+:focus-visible {
+  outline: 3px solid var(--marigold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; }
+}
