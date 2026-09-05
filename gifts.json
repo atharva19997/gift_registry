@@ -1,8 +1,8 @@
 [
   {
     "id": "g1",
-    "title": "Copper & Brass Dinner Set",
-    "description": "A handcrafted 6-piece copperware serving set for cosy dinners at home.",
+    "title": "Multi Colour Ceramic Measuring Cups",
+    "description": "Measuring Cups for Baking, Cooking, Coffee & Dry Ingredients (Multi Colours)",
     "imageUrl": "https://m.media-amazon.com/images/I/61UUSoxWOPL._SX679_.jpg",
     "link": "https://amzn.in/d/02tWTYKF",
     "status": "available",
@@ -10,19 +10,55 @@
   },
   {
     "id": "g2",
-    "title": "Stand Mixer (Cream)",
-    "description": "A tilt-head stand mixer for the baker in the family. Comes with whisk and dough hook.",
-    "imageUrl": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?auto=format&fit=crop&w=800&q=70",
-    "link": "https://www.flipkart.com/EXAMPLE2",
-    "status": "gifted",
-    "giftedBy": ["Priya", "Rohan"]
+    "title": "Glasafe Large Glass Jars",
+    "description": "Set of 3 1000ml Large Borosilicate Glass Jars for Storage",
+    "imageUrl": "https://www.glasafe.com/cdn/shop/files/Artboard9_dbb647c6-4954-4168-903f-fd13a7c7df51.png",
+    "link": "https://www.glasafe.com/products/set-of-3-large-borosilicate-glass-jars-for-storage-1000ml",
+    "status": "available",
+    "giftedBy": []
   },
   {
     "id": "g3",
-    "title": "Handloom Cotton Bedsheet Set",
-    "description": "Soft, breathable king-size handloom bedsheet with two pillow covers.",
-    "imageUrl": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=70",
-    "link": "https://www.amazon.in/dp/EXAMPLE3",
+    "title": "Amalia Laptop Backpack",
+    "description": "A stylish, spacious vegan leather backpack that blends Indian-inspired elegance with everyday functionality.",
+    "imageUrl": "https://zouk.co.in/cdn/shop/files/Amalia4135_1x1_1834281f-ca6c-4ecb-a0bf-d52ce80f0137.jpg",
+    "link": "https://zouk.co.in/collections/amalia-laptop-backpack/products/amalia-backpack-large-nawabi-couture",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g4",
+    "title": "Electric Diffuser",
+    "description": "Charcoal Aroma Diffuser for Home Electric with 7 Colors",
+    "imageUrl": "https://m.media-amazon.com/images/I/61OPeCUwSwL._SX679_.jpg",
+    "link": "https://amzn.in/d/0b98rDtd",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g5",
+    "title": "Glass Lunch Box Combo For Office",
+    "description": "100% Borosilicate Glass , Microwave & Dishwasher Safe , Includes 750ml Bottle, 3 Tiffins & 7L Lunch Bag",
+    "imageUrl": "https://www.glasafe.com/cdn/shop/files/yskmvt8938mae79vbjec.webp",
+    "link": "https://www.glasafe.com/products/glasafe-premium-office-meal-combo-with-tiffins-bottle-bag-set-of-5",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g6",
+    "title": "Philips Handheld Steamer",
+    "description": "Compact handheld design heats quickly for convenient touch-ups",
+    "imageUrl": "https://www.domesticappliances.philips.co.in/cdn/shop/files/STH5020-40_1_2c6532e4-cfe7-415c-b16f-a2f3593b642d.jpg",
+    "link": "https://www.domesticappliances.philips.co.in/products/philips-5000-series-handheld-steamer-with-lightweight-design-for-effortless-wrinkle-removal-sth5020-40",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g7",
+    "title": "Amazon Fire TV Stick 4K",
+    "description": "Alexa Voice Search, Cinematic 4K streaming with HDR10+, Wi-Fi 6, Dolby Vision/Atmos",
+    "imageUrl": "https://m.media-amazon.com/images/I/71xrlc2z+HL._SX679_.jpg",
+    "link": "https://www.amazon.in/dp/B0F7Z6SDBQ",
     "status": "available",
     "giftedBy": []
   }
