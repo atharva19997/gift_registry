@@ -1,10 +1,10 @@
 [
   {
     "id": "g1",
-    "title": "Multi Colour Ceramic Measuring Cups",
-    "description": "Measuring Cups for Baking, Cooking, Coffee & Dry Ingredients (Multi Colours)",
-    "imageUrl": "https://m.media-amazon.com/images/I/61UUSoxWOPL._SX679_.jpg",
-    "link": "https://amzn.in/d/02tWTYKF",
+    "title": "Solara Air Fryer",
+    "description": "INDIA'S FIRST PFAS-FREE AIR FRYER",
+    "imageUrl": "https://www.solara.in/cdn/shop/files/AFO_Combo_0a32edd4-6b10-4561-827b-89451b959a9d.jpg",
+    "link": "https://www.solara.in/products/air-fryer-oven",
     "status": "available",
     "giftedBy": []
   },
@@ -23,8 +23,8 @@
     "description": "A stylish, spacious vegan leather backpack that blends Indian-inspired elegance with everyday functionality.",
     "imageUrl": "https://zouk.co.in/cdn/shop/files/Amalia4135_1x1_1834281f-ca6c-4ecb-a0bf-d52ce80f0137.jpg",
     "link": "https://zouk.co.in/collections/amalia-laptop-backpack/products/amalia-backpack-large-nawabi-couture",
-    "status": "available",
-    "giftedBy": []
+    "status": "gifted",
+    "giftedBy": [Maitreyee]
   },
   {
     "id": "g4",
