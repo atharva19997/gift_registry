@@ -243,6 +243,7 @@ section {
   transition: all 0.18s ease;
 }
 .filter:hover { border-color: var(--marigold); color: var(--plum); }
+.filter__count { font-weight: 500; opacity: 0.8; }
 .filter.is-active {
   background: var(--marigold);
   border-color: var(--marigold);
@@ -273,9 +274,7 @@ section {
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.card:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -20px rgba(58,36,56,0.5); }
 
 .card__media {
   position: relative;
@@ -344,8 +343,26 @@ section {
 }
 .card__gifted strong { color: var(--plum); }
 
+.card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.card__claim {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #fff;
+  background: var(--plum);
+  border: 1px solid var(--plum);
+  border-radius: 999px;
+  padding: 0.55rem 1.3rem;
+  transition: background 0.18s ease;
+}
+.card__claim:hover { background: var(--plum-soft); border-color: var(--plum-soft); }
+
 .card__link {
-  align-self: flex-start;
   font-weight: 600;
   font-size: 0.9rem;
   text-decoration: none;
@@ -382,6 +399,18 @@ section {
 
 /* ============================================================
    RESPONSIVE + ACCESSIBILITY
+   ============================================================ */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ============================================================
    ============================================================ */
 @media (max-width: 560px) {
   .claim { flex-direction: column; text-align: center; }
