@@ -61,5 +61,68 @@
     "link": "https://www.amazon.in/dp/B0F7Z6SDBQ",
     "status": "available",
     "giftedBy": []
+  },
+  {
+    "id": "g8",
+    "title": "Stainless Steel 3-Tier Steamer",
+    "description": "Steamer with Glass Lid | 18 cm | Induction Bottom | For Modak, Momos & More",
+    "imageUrl": "https://m.media-amazon.com/images/I/61JU1r9AVuL._SX679_.jpg",
+    "link": "https://amzn.in/d/0e29GTkw",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g9",
+    "title": "Kitchen Tools Set",
+    "description": "Multi-Functional 7-Piece Stainless Steel Kitchen Tools Set with Stand",
+    "imageUrl": "https://homeessentials.in/cdn/shop/files/1_50755954-2169-4360-8bfd-be717e63ee0e_1220x1220_crop_center.png",
+    "link": "https://homeessentials.in/products/multi-functional-7-piece-stainless-steel-kitchen-tools-set-with-stand",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g10",
+    "title": "Clean Perfume Gift Set",
+    "description": "Clean Perfume Gift Set 100ml X 2",
+    "imageUrl": "https://secretalchemist.com/cdn/shop/files/1_2_22b3596c-a603-4ff0-8b6a-c8d59f4abd7f.jpg?v=1785767383&width=500",
+    "link": "https://secretalchemist.com/products/the-character-clean-perfume-gift-set",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g11",
+    "title": "CÜRAA Masala Dani",
+    "description": "Acacia Wood Masala Dabba by Chef Sanjyot Keer | Spice Box for Kitchen with 7 Detachable Containers & Spoon",
+    "imageUrl": "https://m.media-amazon.com/images/I/71TgLMu5qVL._SX679_.jpg",
+    "link": "https://amzn.in/d/0dLO6svG",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g12",
+    "title": "Water Container",
+    "description": "Stainless Steel Pot 23 Liters | Durable | Sleek Modern Kitchen Storage",
+    "imageUrl": "https://m.media-amazon.com/images/I/710VkycU6zL._SX679_.jpg",
+    "link": "https://amzn.in/d/0fON1gKp",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g13",
+    "title": "Wall Lamp",
+    "description": "3D Moon LED Wall Lamp Modern Art",
+    "imageUrl": "https://m.media-amazon.com/images/I/71MjOcc4KgL._SX679_.jpg",
+    "link": "https://amzn.in/d/02S5zrBS",
+    "status": "available",
+    "giftedBy": []
+  },
+  {
+    "id": "g14",
+    "title": "Food Weighing Scale",
+    "description": "Chef Mate KS50 Digital Weighing Scale",
+    "imageUrl": "https://healthsense.in/cdn/shop/files/ChatGPT_Image_Jul_17_2026_03_47_01_PM.png?v=1784283496",
+    "link": " https://healthsense.in/collections/kitchen-scale/products/healthsense-weight-machine-for-kitchen-kitchen-food-weighing-scale-for-health-fitness-home-baking-cooking-with-ss-platform-touch-button-tare-function-1-year-warranty-chef-mate-ks-50",
+    "status": "available",
+    "giftedBy": []
   }
 ]
